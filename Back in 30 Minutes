@@ -1,0 +1,34 @@
+using System;
+
+namespace Back_In_30_Minutes
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int hours = int.Parse(Console.ReadLine());
+            int minutes = int.Parse(Console.ReadLine());
+            int time = hours * 60 + minutes;
+            int totalTime = time + 30;
+            int endHour = totalTime / 60;
+            int endMinutes = totalTime % 60;
+
+            if (endHour >= 24)
+            {
+                endHour -= 24;
+            }
+
+            if (endMinutes < 10)
+            {
+                Console.WriteLine($"{endHour}:{endMinutes:d2}");
+            }
+            else
+            {
+                Console.WriteLine($"{endHour}:{endMinutes}");
+            }
+
+            
+            
+        }
+    }
+}
