@@ -1,0 +1,40 @@
+using System;
+
+namespace Balanced_Brackets
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int lines = int.Parse(Console.ReadLine());
+            int firstBracket = 0;
+            int secondBracket = 0;
+            bool isBalanced = true;
+
+            for (int i = 0; i < lines; i++)
+            {
+                string brackets = Console.ReadLine();
+               
+                if (brackets == "(")
+                {
+                    firstBracket++;
+                    isBalanced = false;
+                }
+                else if (brackets == ")")
+                {
+                    secondBracket++;
+                    isBalanced = true;
+                }               
+            }
+
+            if (firstBracket == secondBracket && isBalanced)
+            {
+                Console.WriteLine("BALANCED");
+            }
+            else
+            {
+                Console.WriteLine("UNBALANCED");
+            }           
+        }
+    }
+}
