@@ -1,0 +1,27 @@
+using System;
+
+namespace Alcohol_Market
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double whisky = double.Parse(Console.ReadLine());
+            double quantityBeer = double.Parse(Console.ReadLine());
+            double quantityWine = double.Parse(Console.ReadLine());
+            double quantityRakiq = double.Parse(Console.ReadLine());
+            double quantityWhisky = double.Parse(Console.ReadLine());
+            double priceRakiq = whisky/2;
+            double priceWine = priceRakiq - (0.4 * priceRakiq);
+            double priceBeer = priceRakiq - (0.8 * priceRakiq);
+            double valueRakiq = quantityRakiq * priceRakiq;
+            double valueWine =quantityWine * priceWine;
+            double valueBeer = priceBeer * quantityBeer;
+            double valueWhisky = quantityWhisky * whisky;
+            double total = valueRakiq + valueWine + valueBeer + valueWhisky;
+            Console.WriteLine($"{total:f2}");
+
+           
+        }
+    }
+}
