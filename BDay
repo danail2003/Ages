@@ -1,0 +1,20 @@
+using System;
+
+namespace BDay
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int length = int.Parse(Console.ReadLine());
+            int width = int.Parse(Console.ReadLine());
+            int height = int.Parse(Console.ReadLine());
+            double percenatge = double.Parse(Console.ReadLine());
+            int volume = length * width * height;
+            double total = volume * 0.001;
+            double rate = percenatge * 0.01;
+            double litres = total * (1 - rate);
+            Console.WriteLine($"{litres:f3}");
+        }
+    }
+}
