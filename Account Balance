@@ -1,0 +1,32 @@
+using System;
+
+namespace Account_Balance
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int transactions = int.Parse(Console.ReadLine());
+
+            int counter = 0;
+            double account = 0.0;
+
+            while (counter < transactions)
+            {
+                double amount = double.Parse(Console.ReadLine());
+
+                if (amount < 0)
+                {
+                    Console.WriteLine("Invalid operation!");
+                    break;
+                }
+
+                account = account + amount;
+                Console.WriteLine($"Increase: {amount:f2}");
+                counter++;
+            }
+
+            Console.WriteLine($"Total: {account:f2}");
+        }
+    }
+}
