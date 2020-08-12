@@ -1,0 +1,50 @@
+using System;
+
+namespace Bachelor_Party
+{
+    class Program
+    {
+        static void Main()
+        {
+            int guest = int.Parse(Console.ReadLine());
+            string command = "";
+            int peoples = 0;
+            int allPeoples = 0;
+            int total = 0;
+
+            while (command != "The restaurant is full")
+            {
+                command = Console.ReadLine();
+                if (command != "The restaurant is full")
+                {
+                    peoples = int.Parse(command);
+                }
+                
+                allPeoples += peoples;
+
+                int sum;
+                if (peoples < 5)
+                {
+                    sum = peoples * 100;
+                }
+                else
+                {
+                    sum = peoples * 70;
+                }
+
+                total += sum;
+                peoples = 0;
+            }
+            
+            if (total >= guest)
+            {
+                int diff = Math.Abs(total - guest);
+                Console.WriteLine($"You have {allPeoples} guests and {diff} leva left.");
+            }
+            else
+            {
+                Console.WriteLine($"You have {allPeoples} guests and {total} leva income, but no singer.");
+            }
+        }
+    }
+}
