@@ -4,7 +4,7 @@ namespace Alcohol_Market
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double whisky = double.Parse(Console.ReadLine());
             double quantityBeer = double.Parse(Console.ReadLine());
@@ -15,13 +15,11 @@ namespace Alcohol_Market
             double priceWine = priceRakiq - (0.4 * priceRakiq);
             double priceBeer = priceRakiq - (0.8 * priceRakiq);
             double valueRakiq = quantityRakiq * priceRakiq;
-            double valueWine =quantityWine * priceWine;
+            double valueWine = quantityWine * priceWine;
             double valueBeer = priceBeer * quantityBeer;
             double valueWhisky = quantityWhisky * whisky;
             double total = valueRakiq + valueWine + valueBeer + valueWhisky;
             Console.WriteLine($"{total:f2}");
-
-           
         }
     }
 }
