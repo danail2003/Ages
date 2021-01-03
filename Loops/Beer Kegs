@@ -4,7 +4,7 @@ namespace Beer_Kegs
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int count = int.Parse(Console.ReadLine());
             double maxValue = int.MinValue;
@@ -23,6 +23,7 @@ namespace Beer_Kegs
                     lastModel = model;
                 }
             }
+            
             Console.WriteLine(lastModel);
         }
     }
