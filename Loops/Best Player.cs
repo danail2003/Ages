@@ -4,7 +4,7 @@ namespace Best_Player
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string command = "";           
             int maxGoals = int.MinValue;
@@ -12,12 +12,11 @@ namespace Best_Player
             string name = "";
             string bestPlayer = "";
 
-
-            while (command!="END")
+            while (command != "END")
             {
                 command = Console.ReadLine();
                
-                if(command!="END")
+                if(command != "END")
                 {
                     name = command;
                     goals = int.Parse(Console.ReadLine());
@@ -33,10 +32,10 @@ namespace Best_Player
                 {
                     break;
                 }
-
             }
 
             Console.WriteLine($"{bestPlayer} is the best player!");
+            
             if (goals >= 3)
             {
                 Console.WriteLine($"He has scored {maxGoals} goals and made a hat-trick !!!");
