@@ -18,12 +18,14 @@ namespace Biscuits_Factory
             {
                 double percentage = totalBiscuits - otherFactory;
                 double diff = percentage / otherFactory * 100;
+                
                 Console.WriteLine($"You produce {diff:f2} percent more biscuits.");
             }
             else
             {
                 double percentage = otherFactory - totalBiscuits;
                 double diff = percentage / otherFactory * 100;
+                
                 Console.WriteLine($"You produce {diff:f2} percent less biscuits.");
             }
         }
