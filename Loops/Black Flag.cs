@@ -9,6 +9,7 @@ namespace Black_Flag
             int days = int.Parse(Console.ReadLine());
             int dailyPlunder = int.Parse(Console.ReadLine());
             double expectedPlunder = double.Parse(Console.ReadLine());
+            
             double totalPlunder = 0;
 
             for (int i = 1; i <= days; i++)
@@ -33,6 +34,7 @@ namespace Black_Flag
             else
             {
                 double percentage = totalPlunder / expectedPlunder * 100;
+                
                 Console.WriteLine($"Collected only {percentage:f2}% of the plunder.");
             }
         }
