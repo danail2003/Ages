@@ -8,6 +8,7 @@ namespace Bus
         {
             int passengers = int.Parse(Console.ReadLine());
             int station = int.Parse(Console.ReadLine());
+            
             int leaving = 0;
             int upcoming = 0;           
             int controllers = 0;
@@ -27,6 +28,7 @@ namespace Bus
             }
 
             int diff = passengers + upcoming - leaving + controllers;
+            
             Console.WriteLine($"The final number of passengers is : {diff}");
         }
     }
