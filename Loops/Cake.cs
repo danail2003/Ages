@@ -4,16 +4,16 @@ namespace Cake
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int widthOfCake = int.Parse(Console.ReadLine());
             int lengthOfCake = int.Parse(Console.ReadLine());
             string command = Console.ReadLine();
+            
             int allPieces = 0;
 
             while (command != "STOP")
             {
- 
                 allPieces += int.Parse(command);
 
                 if (allPieces > widthOfCake * lengthOfCake)
