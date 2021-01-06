@@ -19,12 +19,12 @@ namespace Car_Number
                         {
                             if(i % 2 == 0 && l % 2 != 0)
                             {
-                                if(i > l && (j + k) % 2 == 0)
+                                if (i > l && (j + k) % 2 == 0)
                                 {
                                     Console.Write($"{i}{j}{k}{l} ");
                                 }
                             }
-                            else if(i % 2 != 0 && l % 2 == 0)
+                            else if (i % 2 != 0 && l % 2 == 0)
                             {
                                 if (i > l && (j + k) % 2 == 0)
                                 {
