@@ -8,6 +8,7 @@ namespace Christmas_Spirit
         {
             int quantity = int.Parse(Console.ReadLine());
             int days = int.Parse(Console.ReadLine());
+            
             int totalPrice = 0;
             int totalSpirit = 0;
             bool isThird = false;
@@ -37,7 +38,7 @@ namespace Christmas_Spirit
                     totalPrice += (quantity * 15);
                     totalSpirit += 17;
 
-                    if(isThird)
+                    if (isThird)
                     {
                         totalSpirit += 30;
                     }
