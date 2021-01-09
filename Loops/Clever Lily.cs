@@ -4,17 +4,18 @@ namespace Clever_Lily
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int age = int.Parse(Console.ReadLine());
             double priceOfWashingmachine = double.Parse(Console.ReadLine());
             int toyPrice = int.Parse(Console.ReadLine());
+            
             int money = 0;
             int addMoney = 0;
             int toyMoney = 0;
             int brother = 0;           
 
-            for(int i = 1; i <= age; i++)
+            for (int i = 1; i <= age; i++)
             {
                 if (i % 2 == 0)
                 {
@@ -26,8 +27,6 @@ namespace Clever_Lily
                 {
                     toyMoney += toyPrice;
                 }
-
-                
             }
 
             int allMoney = (addMoney + toyMoney) - brother;
