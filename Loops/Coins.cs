@@ -4,13 +4,14 @@ namespace Coins
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             decimal money = decimal.Parse(Console.ReadLine());
+            
             int coins = 0;
             decimal total = Math.Floor(money * 100);
 
-            while (total!=0)
+            while (total != 0)
             {
                 if (total >= 200)
                 {
@@ -22,7 +23,7 @@ namespace Coins
                     total -= 100;
                     coins++;
                 }
-                else if (total >=50)
+                else if (total >= 50)
                 {
                     total -= 50;
                     coins++;
@@ -52,7 +53,6 @@ namespace Coins
                     total -= 1;
                     coins++;
                 }
-
             }
 
             Console.WriteLine(coins);
