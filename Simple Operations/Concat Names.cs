@@ -4,7 +4,7 @@ namespace Concat_Names
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string firstName = Console.ReadLine();
             string secondName = Console.ReadLine();
