@@ -11,6 +11,7 @@ namespace Cooking_Masterclass
             double priceOfFlour = double.Parse(Console.ReadLine());
             double priceOfEgg = double.Parse(Console.ReadLine());
             double priceOfApron = double.Parse(Console.ReadLine());
+            
             int flourCounter = 0;
 
             for (int i = 1; i <= students; i++)
