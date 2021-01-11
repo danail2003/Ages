@@ -8,6 +8,7 @@ namespace Cookie_factory
         {
             int number = int.Parse(Console.ReadLine());
             string command = Console.ReadLine();
+            
             bool hasFlour = false;
             bool hasEggs = false;
             bool hasSugar = false;
@@ -18,7 +19,6 @@ namespace Cookie_factory
             {
                 while (command != "Bake!" || hasAll == false)
                 {
-                    
                     if (command == "eggs")
                     {
                         hasEggs = true;
