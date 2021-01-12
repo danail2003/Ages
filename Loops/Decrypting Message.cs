@@ -4,10 +4,11 @@ namespace Decrypting_Message
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int key = int.Parse(Console.ReadLine());
             int charsCount = int.Parse(Console.ReadLine());
+            
             string text = "";           
 
             for (int i = 0; i < charsCount; i++)
