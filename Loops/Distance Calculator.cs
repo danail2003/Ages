@@ -9,6 +9,7 @@ namespace Distance_Calculator
             int steps = int.Parse(Console.ReadLine());
             double lengthOfStep = double.Parse(Console.ReadLine());
             int distance = int.Parse(Console.ReadLine());
+            
             double travelDistance = 0;
 
             for (int i = 1; i <= steps; i++)
