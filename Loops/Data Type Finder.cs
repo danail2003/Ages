@@ -4,7 +4,7 @@ namespace Data_Type_Finder
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             while (true)
             {
@@ -40,7 +40,6 @@ namespace Data_Type_Finder
                 {
                     Console.WriteLine($"{command} is string type");
                 }
-
             }
         }
     }
