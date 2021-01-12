@@ -4,9 +4,10 @@ namespace Divide_without_remainder
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int numbers = int.Parse(Console.ReadLine());
+            
             double sum1 = 0;
             double sum2 = 0;
             double sum3 = 0;
