@@ -4,9 +4,10 @@ namespace Division
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
+            
             int divisible = 0;
 
             if (number % 2 == 0)
