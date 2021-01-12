@@ -4,9 +4,10 @@ namespace Day_of_Week
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int day = int.Parse(Console.ReadLine());
+            
             switch (day)
             {
                 case 1: Console.WriteLine("Monday");
