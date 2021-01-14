@@ -4,7 +4,7 @@ namespace Equal_Numbers
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number1 = int.Parse(Console.ReadLine());
             int number2 = int.Parse(Console.ReadLine());
