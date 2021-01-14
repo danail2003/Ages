@@ -8,6 +8,7 @@ namespace Easter_Cozonacs
         {
             double budget = double.Parse(Console.ReadLine());
             double kgFloor = double.Parse(Console.ReadLine());
+            
             double priceForEggs = kgFloor * 0.75;
             double priceForMilk = kgFloor * 1.25;
             double milkFor250 = priceForMilk * 0.25;
