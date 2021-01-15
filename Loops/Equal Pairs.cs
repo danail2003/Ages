@@ -7,6 +7,7 @@ namespace Equal_Pairs
         static void Main()
         {
             int numbers = int.Parse(Console.ReadLine());
+            
             int previousSum = 0;
             int max = 0;
 
@@ -18,7 +19,7 @@ namespace Equal_Pairs
                 int currentSum = firstNumber + secondNumber;
                 int diff = Math.Abs(currentSum - previousSum);
 
-                if (diff > max && i>0)
+                if (diff > max && i > 0)
                 {
                     max = diff;
                 }
