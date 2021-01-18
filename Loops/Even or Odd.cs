@@ -4,7 +4,7 @@ namespace Even_or_Odd
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
 
@@ -16,7 +16,6 @@ namespace Even_or_Odd
             {
                 Console.WriteLine("odd");
             }
-            
         }
     }
 }
