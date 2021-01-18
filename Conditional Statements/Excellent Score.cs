@@ -4,7 +4,7 @@ namespace Excellent_Score
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double score = double.Parse(Console.ReadLine());
 
