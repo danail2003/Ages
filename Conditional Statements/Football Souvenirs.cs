@@ -4,11 +4,12 @@ namespace Football_Souvenirs
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string team = Console.ReadLine();
             string souvenir = Console.ReadLine();
             int countOfSouvenir = int.Parse(Console.ReadLine());
+            
             double price = 0;           
 
             if (team == "Argentina")
