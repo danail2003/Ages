@@ -4,10 +4,11 @@ namespace Fan_Shop
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int budget = int.Parse(Console.ReadLine());
             int count = int.Parse(Console.ReadLine());
+            
             int price = 0;
             int sum = 0;
 
