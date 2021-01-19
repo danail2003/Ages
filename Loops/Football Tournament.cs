@@ -8,6 +8,7 @@ namespace Football_Tournament
         {
             string team = Console.ReadLine();
             int countTournaments = int.Parse(Console.ReadLine());
+            
             int total = 0;
             double w = 0;
             int d = 0;
