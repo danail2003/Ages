@@ -4,7 +4,7 @@ namespace From_Left_to_The_Right
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int lines = int.Parse(Console.ReadLine());           
 
@@ -12,6 +12,7 @@ namespace From_Left_to_The_Right
             {
                 string numbers = Console.ReadLine();
                 string[] arrNumbers = numbers.Split();
+                
                 long firstNumber = long.Parse(arrNumbers[0]);
                 long secondNumber = long.Parse(arrNumbers[1]);               
                 long sumFirst = 0;
