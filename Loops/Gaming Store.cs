@@ -4,16 +4,17 @@ namespace Gaming_Store
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double budget = double.Parse(Console.ReadLine());
             string game = Console.ReadLine();
+            
             double sum = 0;
             double price = 0;
 
-            while(game!="Game Time")
+            while(game != "Game Time")
             {
-                if(game== "OutFall 4")
+                if(game == "OutFall 4")
                 {
                     price = 39.99;
                     if (budget < price)
@@ -27,7 +28,7 @@ namespace Gaming_Store
                         Console.WriteLine($"Bought {game}");
                     }                 
                 }
-                else if(game== "CS: OG")
+                else if(game == "CS: OG")
                 {
                     price = 15.99;
                     if (budget < price)
@@ -41,7 +42,7 @@ namespace Gaming_Store
                         Console.WriteLine($"Bought {game}");
                     }                  
                 }
-                else if(game== "Zplinter Zell")
+                else if(game == "Zplinter Zell")
                 {
                     price = 19.99;
                     if (budget < price)
@@ -55,7 +56,7 @@ namespace Gaming_Store
                         Console.WriteLine($"Bought {game}");
                     }                    
                 }
-                else if(game== "Honored 2")
+                else if(game == "Honored 2")
                 {
                     price = 59.99;
                     if (budget < price)
@@ -69,7 +70,7 @@ namespace Gaming_Store
                         Console.WriteLine($"Bought {game}");
                     }                   
                 }
-                else if(game== "RoverWatch")
+                else if(game == "RoverWatch")
                 {
                     price = 29.99;
                     if (budget < price)
@@ -83,7 +84,7 @@ namespace Gaming_Store
                         Console.WriteLine($"Bought {game}");
                     }                   
                 }
-                else if(game== "RoverWatch Origins Edition")
+                else if(game == "RoverWatch Origins Edition")
                 {
                     price = 39.99;
                     if (budget < price)
