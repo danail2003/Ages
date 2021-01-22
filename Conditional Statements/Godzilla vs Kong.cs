@@ -4,7 +4,7 @@ namespace Godzilla_vs._Kong
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double budget = double.Parse(Console.ReadLine());
             int statists = int.Parse(Console.ReadLine());
