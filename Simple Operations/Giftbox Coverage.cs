@@ -15,6 +15,7 @@ namespace Giftbox_Coverage
             double normalCovering = numberOfSheets - smallCovering;
             double allCover = (normalCovering * areaOfSheet) + (areaOfSheet * 0.25) * smallCovering;
             double diff = allCover / area * 100;
+            
             Console.WriteLine($"You can cover {diff:f2}% of the box.");
         }
     }
