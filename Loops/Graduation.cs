@@ -4,7 +4,7 @@ namespace Exam_Preparation
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int badGrades = int.Parse(Console.ReadLine());
             string nameOfExercise = Console.ReadLine();
