@@ -10,8 +10,7 @@ namespace Half_Sum_Element
             int sum = 0;
             int max = int.MinValue;
             
-
-            for(int i = 0; i < numbers; i++)
+            for (int i = 0; i < numbers; i++)
             {
                 int number = int.Parse(Console.ReadLine());
 
