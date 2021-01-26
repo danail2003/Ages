@@ -7,6 +7,7 @@ namespace Histogram
         static void Main()
         {
             int numbers = int.Parse(Console.ReadLine());
+            
             double sumTwoHundred = 0;
             double sumThreeHundred = 0;
             double sumFiveHundred = 0;
