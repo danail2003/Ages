@@ -4,13 +4,12 @@ namespace Login
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string username = Console.ReadLine();
             string pass = "";
             
-
-            for(int i=username.Length-1; i>=0; i--)
+            for(int i = username.Length - 1; i >= 0; i--)
             {
                 char symbol = username[i];
                 pass += symbol;
@@ -25,16 +24,15 @@ namespace Login
                     Console.WriteLine($"User {username} logged in.");
                     break;
                 }
-                else if(password!=pass && i < 3)
+                else if(password != pass && i < 3)
                 {
                     Console.WriteLine("Incorrect password. Try again.");
                 }
-                else if(password!=pass && i == 3)
+                else if(password != pass && i == 3)
                 {
                     Console.WriteLine($"User {username} blocked!");
                 }
             }
-            
         }
     }
 }
