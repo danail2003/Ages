@@ -16,7 +16,7 @@ namespace Lucky_Numbers
                     {
                         for (int l = 1; l <= 9 ; l++)
                         {                            
-                            if(i+j == k+l)
+                            if(i + j == k + l)
                             {
                                 if (number % (i + j) == 0)
                                 {
