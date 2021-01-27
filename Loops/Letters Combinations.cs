@@ -9,6 +9,7 @@ namespace Letters_Combinations
             char firstSymbol = char.Parse(Console.ReadLine());
             char secondSymbol = char.Parse(Console.ReadLine());
             char thirdSymbol = char.Parse(Console.ReadLine());
+            
             int count = 0;
 
             for (char i = firstSymbol; i <= secondSymbol; i++)
@@ -17,7 +18,7 @@ namespace Letters_Combinations
                 {
                     for (char k = firstSymbol; k <= secondSymbol; k++)
                     {
-                        if(i == thirdSymbol || j == thirdSymbol || k == thirdSymbol)
+                        if (i == thirdSymbol || j == thirdSymbol || k == thirdSymbol)
                         {
                             continue;
                         }
