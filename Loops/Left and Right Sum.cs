@@ -7,16 +7,17 @@ namespace Left_and_Right_Sum
         static void Main()
         {
             int numbers = int.Parse(Console.ReadLine());
+            
             int firstNumbers = 0;
             int secondNumbers = 0;
 
-            for(int i = 0; i < numbers; i++)
+            for (int i = 0; i < numbers; i++)
             {
                 int number = int.Parse(Console.ReadLine());
                 firstNumbers += number;
             }
 
-            for(int i = 0; i < numbers; i++)
+            for (int i = 0; i < numbers; i++)
             {
                 int number = int.Parse(Console.ReadLine());
                 secondNumbers += number;
