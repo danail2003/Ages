@@ -4,9 +4,10 @@ namespace Messages
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int countOfNumbers = int.Parse(Console.ReadLine());
+            
             string word = "";          
 
             for (int i = 0; i < countOfNumbers; i++)
@@ -122,6 +123,7 @@ namespace Messages
                     word += " ";
                 }
             }
+            
             Console.WriteLine(word);
         }
     }
