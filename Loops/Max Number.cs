@@ -4,7 +4,7 @@ namespace Max_Number
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
 
@@ -18,7 +18,6 @@ namespace Max_Number
                 if (number2 > biggestNumber)
                 {
                     biggestNumber = number2;
-                    
                 }
 
                 counter++;
