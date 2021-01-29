@@ -4,7 +4,7 @@ namespace Min_Number
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int count = int.Parse(Console.ReadLine());
 
@@ -14,6 +14,7 @@ namespace Min_Number
             while (counter < count)
             {
                 int number = int.Parse(Console.ReadLine());
+                
                 if (number < minNumber)
                 {
                     minNumber = number;
