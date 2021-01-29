@@ -4,7 +4,7 @@ namespace Month_Printer
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int month = int.Parse(Console.ReadLine());
 
