@@ -4,16 +4,15 @@ namespace Metric_Converter
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double number = double.Parse(Console.ReadLine());
             string inputMetric = Console.ReadLine();
             string outputMetric = Console.ReadLine();
-            
 
             if (inputMetric == "cm")
             {
-                number /=100;
+                number /= 100;
             }
             else if (inputMetric == "mm")
             {
@@ -27,6 +26,7 @@ namespace Metric_Converter
             {
                 number *= 100;
             }
+            
             Console.WriteLine($"{number:f3}");
         }
     }
