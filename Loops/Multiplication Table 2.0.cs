@@ -4,7 +4,7 @@ namespace Multiplication_Table_2._0
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
             int multiplier = int.Parse(Console.ReadLine());           
