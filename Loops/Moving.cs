@@ -4,7 +4,7 @@ namespace Moving
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int width = int.Parse(Console.ReadLine());
             int length = int.Parse(Console.ReadLine());
@@ -14,7 +14,7 @@ namespace Moving
             int allSpace = 0;                       
             int roomSpace = width * length * height;
 
-            while (final!="Done")
+            while (final != "Done")
             {
                 int box = int.Parse(final);
                 allSpace = allSpace + box;
