@@ -7,6 +7,7 @@ namespace Multiply_Table
         static void Main()
         {
             int number = int.Parse(Console.ReadLine());
+            
             int digit = number % 10;
             int secondDigit = number % 100;
             secondDigit /= 10;
