@@ -7,13 +7,14 @@ namespace Name_Wars
         static void Main()
         {
             string name = Console.ReadLine();
+            
             int sum = int.MinValue;
             int max = 0;
             string winner = "";
 
             while (name != "STOP")
             {
-                for(int i=0; i < name.Length; i++)
+                for(int i = 0; i < name.Length; i++)
                 {
                     int input = name[i];
                     max += input;
