@@ -4,9 +4,10 @@ namespace Name_of_the_Last_Digit
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double number = double.Parse(Console.ReadLine());
+            
             double lastDigit = number % 10;
 
             if (lastDigit == 0)
