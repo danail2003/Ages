@@ -4,7 +4,7 @@ namespace Number_from_100_to_200
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
 
