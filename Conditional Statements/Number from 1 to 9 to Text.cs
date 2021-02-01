@@ -4,7 +4,7 @@ namespace Number_from_1_to_9_to_Text
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
 
