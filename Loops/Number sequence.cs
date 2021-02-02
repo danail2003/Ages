@@ -7,10 +7,11 @@ namespace Number_sequence
         static void Main()
         {
             int numbers = int.Parse(Console.ReadLine());
+            
             int maxNumber = int.MinValue;
             int minNumber = int.MaxValue;
 
-            for(int i = 0; i < numbers; i++)
+            for (int i = 0; i < numbers; i++)
             {
                 int number = int.Parse(Console.ReadLine());
 
@@ -18,7 +19,8 @@ namespace Number_sequence
                 {
                     maxNumber = number;
                 }
-                if(number < minNumber)
+                
+                if (number < minNumber)
                 {
                     minNumber = number;
                 }
