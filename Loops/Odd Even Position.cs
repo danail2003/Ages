@@ -15,7 +15,7 @@ namespace Odd__Even_Position
             double oddMin = double.MaxValue;
             double evenMin = double.MaxValue;
 
-            for(int i = 1; i <= numbers; i++)
+            for (int i = 1; i <= numbers; i++)
             {
                 double number = double.Parse(Console.ReadLine());
 
