@@ -8,6 +8,7 @@ namespace Party_Profit
         {
             int party = int.Parse(Console.ReadLine());
             int days = int.Parse(Console.ReadLine());
+            
             int coins = 0;
             bool isThird = false;
 
