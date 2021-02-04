@@ -4,14 +4,15 @@ namespace Padawan_Equipment
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double budget = double.Parse(Console.ReadLine());
             int countOfStudents = int.Parse(Console.ReadLine());
             double priceOfLightsabers = double.Parse(Console.ReadLine());
             double priceOfRobes = double.Parse(Console.ReadLine());
             double priceOfBelts = double.Parse(Console.ReadLine());
-            double freeBelts = countOfStudents/6;
+            
+            double freeBelts = countOfStudents / 6;
             double totalLightsabers = priceOfLightsabers * Math.Ceiling(countOfStudents * 1.10);
             double totalRobes = priceOfRobes * countOfStudents;
             double totalBelts = priceOfBelts * (countOfStudents - freeBelts);
