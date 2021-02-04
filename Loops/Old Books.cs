@@ -4,7 +4,7 @@ namespace Old_Books
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string book = Console.ReadLine();
             int capacity = int.Parse(Console.ReadLine());
@@ -14,7 +14,6 @@ namespace Old_Books
 
             while (searchedBook != book)
             {
-                
                 searchedBook = Console.ReadLine();
 
                 counter++;
