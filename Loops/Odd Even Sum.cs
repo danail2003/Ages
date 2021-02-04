@@ -7,10 +7,11 @@ namespace Odd_Even_Sum
         static void Main()
         {
             int numbers = int.Parse(Console.ReadLine());
+            
             int evenPosition = 0;
             int oddPosition = 0;
 
-            for(int i = 0; i < numbers; i++)
+            for (int i = 0; i < numbers; i++)
             {
                 int number = int.Parse(Console.ReadLine());
 
