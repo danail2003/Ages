@@ -4,7 +4,7 @@ namespace Passed
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double grade = double.Parse(Console.ReadLine());
 
