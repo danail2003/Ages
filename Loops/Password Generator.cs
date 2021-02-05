@@ -19,7 +19,7 @@ namespace Password_Generator
                         {
                             for (int o = 2; o <= n; o++)
                             {
-                                if(o > i && o > j)
+                                if (o > i && o > j)
                                 {
                                     Console.Write($"{i}{j}{(char)k}{(char)m}{o} ");
                                 }
