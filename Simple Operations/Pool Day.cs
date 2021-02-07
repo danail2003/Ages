@@ -17,6 +17,7 @@ namespace Pool_Day
             double percentUmbrellas = Math.Ceiling(humans * 0.5);
             double priceUmbrellas = percentUmbrellas * priceForUmbrella;
             double total = input + priceChairs + priceUmbrellas;
+            
             Console.WriteLine($"{total:f2} lv.");
         }
     }
