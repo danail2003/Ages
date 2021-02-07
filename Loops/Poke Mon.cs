@@ -4,11 +4,12 @@ namespace Poke_Mon
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int power = int.Parse(Console.ReadLine());
             int distance = int.Parse(Console.ReadLine());
             int exhausted = int.Parse(Console.ReadLine());
+            
             int diff = power;
             int counter = 0;
 
