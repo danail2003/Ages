@@ -10,12 +10,13 @@ namespace Present_Delivery
         {
             List<int> housesWithMembers = Console.ReadLine().Split("@").Select(int.Parse).ToList();
             string command = Console.ReadLine();
+            
             int length = 0;
             int counter = 0;
             int countOfList = housesWithMembers.Count;
             int totalLength = 0;
 
-            while(command != "Merry Xmas!")
+            while (command != "Merry Xmas!")
             {
                 string[] token = command.Split();
                 length = int.Parse(token[1]);               
