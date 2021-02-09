@@ -4,10 +4,12 @@ namespace Refactor_Special_Numbers
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
+            
             int total = 0;
+            
             for (int num = 1; num <= number; num++)
             {
                 int digit = num;
@@ -23,7 +25,6 @@ namespace Refactor_Special_Numbers
                 total = 0;
                 num = digit;
             }
-
         }
     }
 }
