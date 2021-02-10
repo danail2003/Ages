@@ -10,6 +10,7 @@ namespace Renovation
             int width = int.Parse(Console.ReadLine());
             int noPaint = int.Parse(Console.ReadLine());
             string command = Console.ReadLine();
+            
             double area = height * width * 4;
             double walls = area - (area * noPaint/100);           
             int liters = 0;
