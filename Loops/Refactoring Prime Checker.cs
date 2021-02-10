@@ -4,9 +4,10 @@ namespace Refactoring_Prime_Checker
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
+            
             for (int i = 2; i <= number; i++)
             {
                 bool isPrime = true;
@@ -21,7 +22,8 @@ namespace Refactoring_Prime_Checker
                         break;
                     }
                 }
-                Console.WriteLine("{0} -> {1}", i, check);
+                Con
+                sole.WriteLine("{0} -> {1}", i, check);
             }
         }
     }   
