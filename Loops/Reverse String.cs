@@ -4,7 +4,7 @@ namespace Reverse_String
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string text = Console.ReadLine();
             string reverse = "";
