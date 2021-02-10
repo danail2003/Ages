@@ -4,7 +4,7 @@ namespace Reversed_Chars
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             char firstSymbol = char.Parse(Console.ReadLine());
             char secondSymbol = char.Parse(Console.ReadLine());
