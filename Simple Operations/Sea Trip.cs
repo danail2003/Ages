@@ -9,8 +9,8 @@ namespace Sea_Trip
             double moneyForFood = double.Parse(Console.ReadLine());
             double moneyForSouvenir = double.Parse(Console.ReadLine());
             double moneyForHotel = double.Parse(Console.ReadLine());
+            
             double km = 420;
-
             double benzin = km / 100 * 7;           
             double moneyForBenzin = benzin * 1.85;
             double threeDays = (3 * moneyForFood) + (3 * moneyForSouvenir);
