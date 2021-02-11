@@ -4,7 +4,7 @@ namespace Scholarship
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(s)
         {
             double income = double.Parse(Console.ReadLine());
             double averageSuccess = double.Parse(Console.ReadLine());
