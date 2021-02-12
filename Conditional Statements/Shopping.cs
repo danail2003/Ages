@@ -22,6 +22,7 @@ namespace Shopping
             {
                 total *= 0.85;
             }
+            
             double diff = Math.Abs(budget - total);
 
             if (budget >= total)
