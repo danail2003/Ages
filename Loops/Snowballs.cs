@@ -5,7 +5,7 @@ namespace Snowballs
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
             int counter = 0;
@@ -19,6 +19,7 @@ namespace Snowballs
                 int snowball = int.Parse(Console.ReadLine());
                 int snowballTime = int.Parse(Console.ReadLine());
                 int snowballQuality = int.Parse(Console.ReadLine());
+                
                 BigInteger formula = BigInteger.Pow(snowball / snowballTime, snowballQuality);               
 
                 if (formula > maxValue)
@@ -31,6 +32,7 @@ namespace Snowballs
 
                 counter++;
             }
+            
             Console.WriteLine($"{endSnowball} : {endSnowballTime} = {maxValue} ({endSnowballQuality})");
         }
     }
