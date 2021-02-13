@@ -4,7 +4,7 @@ namespace Special_Numbers
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
 
@@ -12,13 +12,14 @@ namespace Special_Numbers
             {
                 int sum = 0;
                 int num = i;
+                
                 for (int j = 0; j < i.ToString().Length; j++)
                 {
                     sum += num % 10;
                     num /= 10;
                 }
 
-                if(sum == 5 || sum == 7 || sum == 11)
+                if (sum == 5 || sum == 7 || sum == 11)
                 {
                     Console.WriteLine($"{i} -> True");
                 }
