@@ -4,7 +4,7 @@ namespace Speed_Info
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             double speed = double.Parse(Console.ReadLine());
 
