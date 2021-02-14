@@ -4,9 +4,10 @@ namespace Spice_Must_Flow
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int yield = int.Parse(Console.ReadLine());
+            
             int total = 0;
             int counter = 0;
 
@@ -19,7 +20,9 @@ namespace Spice_Must_Flow
                     yield -= 10;
                     counter++;
                 }
+                
                 total -= 26;
+                
                 Console.WriteLine(counter);
                 Console.WriteLine(total);
             }
