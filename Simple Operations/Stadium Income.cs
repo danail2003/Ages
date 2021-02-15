@@ -4,7 +4,7 @@ namespace Stadium_Income
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int sectors = int.Parse(Console.ReadLine());
             int capacity = int.Parse(Console.ReadLine());
