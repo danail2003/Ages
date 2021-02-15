@@ -14,6 +14,7 @@ namespace Spring_Vacation_Trip
             double priceForRoom = double.Parse(Console.ReadLine());
 
             double foodExpenses = daysOfTrip * groupOfPeople * foodForDay;
+            
             double priceForHotel;
             if (groupOfPeople > 10)
             {
@@ -54,6 +55,7 @@ namespace Spring_Vacation_Trip
             }
 
             diff = budget - currentExpenses;
+            
             Console.WriteLine($"You have reached the destination. You have {diff:f2}$ budget left.");
         }
     }
