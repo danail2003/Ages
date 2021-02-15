@@ -4,9 +4,10 @@ namespace Strong_number
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int n = int.Parse(Console.ReadLine());
+            
             int nCopy = n;
             int sum = 0;
 
@@ -23,6 +24,7 @@ namespace Strong_number
 
                 sum += factoriel;
             }
+            
             if (sum == nCopy)
             {
                 Console.WriteLine("yes");
@@ -31,7 +33,6 @@ namespace Strong_number
             {
                 Console.WriteLine("no");
             }
-
         }
     }
 }
