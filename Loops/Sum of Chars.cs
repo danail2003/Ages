@@ -4,9 +4,10 @@ namespace Sum_of_Chars
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int symbols = int.Parse(Console.ReadLine());
+            
             int total = 0;
 
             for (int i = 0; i < symbols; i++)
