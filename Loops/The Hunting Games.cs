@@ -18,6 +18,7 @@ namespace The_Hunting_Games
             for (int i = 1; i <= days; i++)
             {
                 double lostEnergy = double.Parse(Console.ReadLine());
+                
                 energy -= lostEnergy;
 
                 if (energy <= 0)
