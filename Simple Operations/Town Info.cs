@@ -4,7 +4,7 @@ namespace Town_Info
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string town = Console.ReadLine();
             int population = int.Parse(Console.ReadLine());
