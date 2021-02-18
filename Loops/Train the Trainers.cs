@@ -8,6 +8,7 @@ namespace Train_The_Trainers
         {
             int judge = int.Parse(Console.ReadLine());
             string command = Console.ReadLine();
+            
             int juri = 0;
             double sumGrade = 0;           
             double score = 0;           
@@ -15,17 +16,19 @@ namespace Train_The_Trainers
 
             while (command != "Finish")
             {
-                  
                 while (judge > juri)
                 {
                     double exam = double.Parse(Console.ReadLine());
+                    
                     sumGrade += exam;
                     juri++;
                     gradeCount++;
                 }
 
                 double totalGrade = sumGrade / judge;
+                
                 Console.WriteLine($"{command} - {totalGrade:f2}.");
+                
                 score += sumGrade;
                 sumGrade = 0;
                 juri = 0;
