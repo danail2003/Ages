@@ -7,11 +7,13 @@ namespace Travelling
         static void Main()
         {
             string destination = Console.ReadLine();
+            
             double allMoney = 0.0;
 
             while (destination != "End")
             {
                 double budget = double.Parse(Console.ReadLine());
+                
                 while (allMoney < budget)
                 {
                     double money = double.Parse(Console.ReadLine());
