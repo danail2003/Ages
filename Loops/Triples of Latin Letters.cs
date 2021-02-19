@@ -4,7 +4,7 @@ namespace Triples_of_Latin_Letters
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int number = int.Parse(Console.ReadLine());
 
@@ -17,6 +17,7 @@ namespace Triples_of_Latin_Letters
                         char first = (char)('a' + i);
                         char second = (char)('a' + j);
                         char third = (char)('a' + k);
+                        
                         Console.WriteLine($"{first}{second}{third}");
                     }
                 }
