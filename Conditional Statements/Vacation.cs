@@ -4,11 +4,12 @@ namespace Vacation
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int countOfPeople = int.Parse(Console.ReadLine());
             string typeOfPeople = Console.ReadLine();
             string day = Console.ReadLine();
+            
             double price = 0;
 
             if (day == "Friday")
