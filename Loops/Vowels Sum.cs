@@ -7,10 +7,11 @@ namespace Vowels_Sum
         static void Main()
         {
             string text = Console.ReadLine();
+            
             int sum = 0;
             int vowels = text.Length;
             
-            for(int i = 0; i < vowels; i++)
+            for (int i = 0; i < vowels; i++)
             {
                 if (text[i] == 'a')
                 {
