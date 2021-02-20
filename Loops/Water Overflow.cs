@@ -4,9 +4,10 @@ namespace Water_Overflow
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int count = int.Parse(Console.ReadLine());
+            
             int sum = 0;
             int counter = 0;
 
@@ -23,6 +24,7 @@ namespace Water_Overflow
 
                 counter++;
             }
+            
             Console.WriteLine(sum);
         }
     }
