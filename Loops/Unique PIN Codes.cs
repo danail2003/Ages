@@ -16,9 +16,9 @@ namespace Unique_PIN_Codes
                 {
                     for (int k = 1; k <= thirdNumber; k++)
                     {
-                        if(i % 2 == 0 && k % 2 == 0)
+                        if (i % 2 == 0 && k % 2 == 0)
                         {
-                            if(j == 2 || j == 3 || j == 5 || j == 7)
+                            if (j == 2 || j == 3 || j == 5 || j == 7)
                             {
                                 Console.WriteLine($"{i} {j} {k}");
                             }                           
