@@ -4,16 +4,17 @@ namespace Vending_Machine
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string coins = Console.ReadLine();
+            
             double sumCoins = 0;
             
-
             while (coins != "Start")
             {
                 double convertCoins = double.Parse(coins);
-                if(convertCoins!=0.1 && convertCoins!=0.2 && convertCoins!=0.5 && convertCoins!=1 && convertCoins != 2)
+                
+                if(convertCoins != 0.1 && convertCoins != 0.2 && convertCoins != 0.5 && convertCoins != 1 && convertCoins != 2)
                 {
                     Console.WriteLine($"Cannot accept {convertCoins}");
                 }
@@ -23,11 +24,11 @@ namespace Vending_Machine
                     sumCoins += convertCoins;
                 }
                 
-
                 coins = Console.ReadLine();
             }
 
             string product = Console.ReadLine();
+            
             double price = 0;            
 
             while (product != "End")
