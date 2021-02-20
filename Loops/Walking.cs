@@ -7,6 +7,7 @@ namespace Walking
         static void Main()
         {
             string command = Console.ReadLine();
+            
             int goal = 0;
             
             while (command != "Going home")
